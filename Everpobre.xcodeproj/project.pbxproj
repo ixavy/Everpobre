@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B488D4916B52252004B6FF1 /* ATCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B488D4816B52252004B6FF1 /* ATCoreDataTableViewController.m */; };
+		3B488D4D16B52574004B6FF1 /* IXNotebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B488D4C16B52574004B6FF1 /* IXNotebookViewController.m */; };
+		3B488D5316B52F6F004B6FF1 /* UIViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B488D5216B52F6F004B6FF1 /* UIViewController+Navigation.m */; };
+		3B488D5916B54601004B6FF1 /* IXNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B488D5816B54601004B6FF1 /* IXNoteViewController.m */; };
+		3B488D9416B58EC1004B6FF1 /* IXSingleNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B488D9216B58EC1004B6FF1 /* IXSingleNoteViewController.m */; };
+		3B488D9516B58EC1004B6FF1 /* IXSingleNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B488D9316B58EC1004B6FF1 /* IXSingleNoteViewController.xib */; };
 		3B9AFE6B16B3F254003553B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9AFE6A16B3F254003553B3 /* UIKit.framework */; };
 		3B9AFE6D16B3F254003553B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9AFE6C16B3F254003553B3 /* Foundation.framework */; };
 		3B9AFE6F16B3F254003553B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9AFE6E16B3F254003553B3 /* CoreGraphics.framework */; };
@@ -16,9 +22,28 @@
 		3B9AFE7D16B3F254003553B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9AFE7C16B3F254003553B3 /* Default.png */; };
 		3B9AFE7F16B3F254003553B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9AFE7E16B3F254003553B3 /* Default@2x.png */; };
 		3B9AFE8116B3F254003553B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9AFE8016B3F254003553B3 /* Default-568h@2x.png */; };
+		3B9AFE8B16B3F294003553B3 /* ATCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AFE8816B3F294003553B3 /* ATCoreDataStack.m */; };
+		3B9AFE8E16B3F2AA003553B3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9AFE8D16B3F2AA003553B3 /* CoreData.framework */; };
+		3B9AFE9116B3F891003553B3 /* Everpobre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AFE8F16B3F891003553B3 /* Everpobre.xcdatamodeld */; };
+		3B9AFEA116B4399D003553B3 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AFE9E16B4399D003553B3 /* Note.m */; };
+		3B9AFEA216B4399D003553B3 /* Notebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AFEA016B4399D003553B3 /* Notebook.m */; };
+		3B9AFEA716B43A40003553B3 /* _Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AFEA416B43A40003553B3 /* _Note.m */; };
+		3B9AFEA816B43A40003553B3 /* _Notebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AFEA616B43A40003553B3 /* _Notebook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B488D4716B52252004B6FF1 /* ATCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCoreDataTableViewController.h; sourceTree = "<group>"; };
+		3B488D4816B52252004B6FF1 /* ATCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCoreDataTableViewController.m; sourceTree = "<group>"; };
+		3B488D4B16B52574004B6FF1 /* IXNotebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNotebookViewController.h; sourceTree = "<group>"; };
+		3B488D4C16B52574004B6FF1 /* IXNotebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXNotebookViewController.m; sourceTree = "<group>"; };
+		3B488D5116B52F6F004B6FF1 /* UIViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigation.h"; sourceTree = "<group>"; };
+		3B488D5216B52F6F004B6FF1 /* UIViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigation.m"; sourceTree = "<group>"; };
+		3B488D5716B54601004B6FF1 /* IXNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXNoteViewController.h; sourceTree = "<group>"; };
+		3B488D5816B54601004B6FF1 /* IXNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXNoteViewController.m; sourceTree = "<group>"; };
+		3B488D5A16B57301004B6FF1 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		3B488D9116B58EC1004B6FF1 /* IXSingleNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXSingleNoteViewController.h; sourceTree = "<group>"; };
+		3B488D9216B58EC1004B6FF1 /* IXSingleNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXSingleNoteViewController.m; sourceTree = "<group>"; };
+		3B488D9316B58EC1004B6FF1 /* IXSingleNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IXSingleNoteViewController.xib; sourceTree = "<group>"; };
 		3B9AFE6616B3F254003553B3 /* Everpobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Everpobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9AFE6A16B3F254003553B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3B9AFE6C16B3F254003553B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +57,18 @@
 		3B9AFE7C16B3F254003553B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3B9AFE7E16B3F254003553B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3B9AFE8016B3F254003553B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3B9AFE8716B3F294003553B3 /* ATCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCoreDataStack.h; sourceTree = "<group>"; };
+		3B9AFE8816B3F294003553B3 /* ATCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCoreDataStack.m; sourceTree = "<group>"; };
+		3B9AFE8D16B3F2AA003553B3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3B9AFE9016B3F891003553B3 /* Everpobre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Everpobre.xcdatamodel; sourceTree = "<group>"; };
+		3B9AFE9D16B4399D003553B3 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		3B9AFE9E16B4399D003553B3 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		3B9AFE9F16B4399D003553B3 /* Notebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notebook.h; sourceTree = "<group>"; };
+		3B9AFEA016B4399D003553B3 /* Notebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notebook.m; sourceTree = "<group>"; };
+		3B9AFEA316B43A40003553B3 /* _Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Note.h; sourceTree = "<group>"; };
+		3B9AFEA416B43A40003553B3 /* _Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Note.m; sourceTree = "<group>"; };
+		3B9AFEA516B43A40003553B3 /* _Notebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Notebook.h; sourceTree = "<group>"; };
+		3B9AFEA616B43A40003553B3 /* _Notebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Notebook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9AFE8E16B3F2AA003553B3 /* CoreData.framework in Frameworks */,
 				3B9AFE6B16B3F254003553B3 /* UIKit.framework in Frameworks */,
 				3B9AFE6D16B3F254003553B3 /* Foundation.framework in Frameworks */,
 				3B9AFE6F16B3F254003553B3 /* CoreGraphics.framework in Frameworks */,
@@ -48,6 +86,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B488D4E16B5259A004B6FF1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B488D4716B52252004B6FF1 /* ATCoreDataTableViewController.h */,
+				3B488D4816B52252004B6FF1 /* ATCoreDataTableViewController.m */,
+				3B488D4B16B52574004B6FF1 /* IXNotebookViewController.h */,
+				3B488D4C16B52574004B6FF1 /* IXNotebookViewController.m */,
+				3B488D5716B54601004B6FF1 /* IXNoteViewController.h */,
+				3B488D5816B54601004B6FF1 /* IXNoteViewController.m */,
+				3B488D9116B58EC1004B6FF1 /* IXSingleNoteViewController.h */,
+				3B488D9216B58EC1004B6FF1 /* IXSingleNoteViewController.m */,
+				3B488D9316B58EC1004B6FF1 /* IXSingleNoteViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3B488D4F16B525B6004B6FF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B9AFE8716B3F294003553B3 /* ATCoreDataStack.h */,
+				3B9AFE8816B3F294003553B3 /* ATCoreDataStack.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3B488D5016B525BE004B6FF1 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				3B9AFE8F16B3F891003553B3 /* Everpobre.xcdatamodeld */,
+				3B488D5516B53523004B6FF1 /* Core Date Classes */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		3B488D5416B52F7C004B6FF1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3B488D5116B52F6F004B6FF1 /* UIViewController+Navigation.h */,
+				3B488D5216B52F6F004B6FF1 /* UIViewController+Navigation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		3B488D5516B53523004B6FF1 /* Core Date Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B9AFE9D16B4399D003553B3 /* Note.h */,
+				3B9AFE9E16B4399D003553B3 /* Note.m */,
+				3B9AFE9F16B4399D003553B3 /* Notebook.h */,
+				3B9AFEA016B4399D003553B3 /* Notebook.m */,
+				3B488D5616B5352F004B6FF1 /* moGenerator Classes */,
+			);
+			name = "Core Date Classes";
+			sourceTree = "<group>";
+		};
+		3B488D5616B5352F004B6FF1 /* moGenerator Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B9AFEA316B43A40003553B3 /* _Note.h */,
+				3B9AFEA416B43A40003553B3 /* _Note.m */,
+				3B9AFEA516B43A40003553B3 /* _Notebook.h */,
+				3B9AFEA616B43A40003553B3 /* _Notebook.m */,
+			);
+			name = "moGenerator Classes";
+			sourceTree = "<group>";
+		};
 		3B9AFE5B16B3F254003553B3 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +172,7 @@
 		3B9AFE6916B3F254003553B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B9AFE8D16B3F2AA003553B3 /* CoreData.framework */,
 				3B9AFE6A16B3F254003553B3 /* UIKit.framework */,
 				3B9AFE6C16B3F254003553B3 /* Foundation.framework */,
 				3B9AFE6E16B3F254003553B3 /* CoreGraphics.framework */,
@@ -80,6 +185,10 @@
 			children = (
 				3B9AFE7916B3F254003553B3 /* IXAppDelegate.h */,
 				3B9AFE7A16B3F254003553B3 /* IXAppDelegate.m */,
+				3B488D4F16B525B6004B6FF1 /* Models */,
+				3B488D4E16B5259A004B6FF1 /* Controllers */,
+				3B488D5416B52F7C004B6FF1 /* Categories */,
+				3B488D5016B525BE004B6FF1 /* Core Data */,
 				3B9AFE7116B3F254003553B3 /* Supporting Files */,
 			);
 			path = Everpobre;
@@ -88,6 +197,7 @@
 		3B9AFE7116B3F254003553B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B488D5A16B57301004B6FF1 /* Settings.h */,
 				3B9AFE7216B3F254003553B3 /* Everpobre-Info.plist */,
 				3B9AFE7316B3F254003553B3 /* InfoPlist.strings */,
 				3B9AFE7616B3F254003553B3 /* main.m */,
@@ -155,6 +265,7 @@
 				3B9AFE7D16B3F254003553B3 /* Default.png in Resources */,
 				3B9AFE7F16B3F254003553B3 /* Default@2x.png in Resources */,
 				3B9AFE8116B3F254003553B3 /* Default-568h@2x.png in Resources */,
+				3B488D9516B58EC1004B6FF1 /* IXSingleNoteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +278,17 @@
 			files = (
 				3B9AFE7716B3F254003553B3 /* main.m in Sources */,
 				3B9AFE7B16B3F254003553B3 /* IXAppDelegate.m in Sources */,
+				3B9AFE8B16B3F294003553B3 /* ATCoreDataStack.m in Sources */,
+				3B9AFE9116B3F891003553B3 /* Everpobre.xcdatamodeld in Sources */,
+				3B9AFEA116B4399D003553B3 /* Note.m in Sources */,
+				3B9AFEA216B4399D003553B3 /* Notebook.m in Sources */,
+				3B9AFEA716B43A40003553B3 /* _Note.m in Sources */,
+				3B9AFEA816B43A40003553B3 /* _Notebook.m in Sources */,
+				3B488D4916B52252004B6FF1 /* ATCoreDataTableViewController.m in Sources */,
+				3B488D4D16B52574004B6FF1 /* IXNotebookViewController.m in Sources */,
+				3B488D5316B52F6F004B6FF1 /* UIViewController+Navigation.m in Sources */,
+				3B488D5916B54601004B6FF1 /* IXNoteViewController.m in Sources */,
+				3B488D9416B58EC1004B6FF1 /* IXSingleNoteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +397,22 @@
 				3B9AFE8616B3F254003553B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B9AFE8F16B3F891003553B3 /* Everpobre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B9AFE9016B3F891003553B3 /* Everpobre.xcdatamodel */,
+			);
+			currentVersion = 3B9AFE9016B3F891003553B3 /* Everpobre.xcdatamodel */;
+			path = Everpobre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3B9AFE5D16B3F254003553B3 /* Project object */;
 }

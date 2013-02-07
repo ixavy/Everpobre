@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class ATCoreDataStack;
+
 @interface IXAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic)  ATCoreDataStack *model;
 
 @end
